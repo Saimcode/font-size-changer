@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 1200px;
+    height: auto;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.container .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.container .buttons .btn {
+    padding: 0 10px;
+    display: inline-flex;
+    background-color: #ddd;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.container .buttons .btn.active {
+    background: #444;
+}
+
+.container .buttons .btn:nth-child(2) {
+    font-size: 1.5rem;
+}
+
+.container .buttons .btn:nth-child(3) {
+    font-size: 2rem;
+}
+
+.container .content {
+    font-size: 1em;
+    color: #444;
+}
+
+.container .content b {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.container .content h2,
+.container .content p {
+    transition: 0.5s;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.copyright {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    font-size: 12px;
+    margin: 2px auto;
+    padding: 0 60px;
+    bottom: 5%;
+    right: 20px;
+}
+
+.container strong{
+    font-style: italic;
+    font-weight: 300;
+}
+
+.dot {
+    height: 800px;
+    width: 800px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    bottom: 20%;
+    left: -20%;
+    overflow: hidden;
+}
+
+/* .container .buttons .btn1::after{
+    content: "16px";
+    font-size: 16px;
+    background: rgb(117, 33, 33);
+    color: #555;
+    bottom: 0;
+    position: absolute;
+    top: 40%;
+    margin-right: 1rem;
+    height: 1.4rem;
+    width: 0;
+} */
