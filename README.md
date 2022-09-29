@@ -4,17 +4,16 @@ Font Size Changer is a simple web application that lets the user to change the f
 
 ## 🔧 Getting Started
 
-### 📍 Dependencies
+### 📍 Installation & Setup Instructions
 
-It's a web-based program so you would need the following:
+#### 1. Download this repository or clone it via Git using the commands below:
 
-* Any OS (depending on your device).
-* A browser to run the application.
+    $ git clone https://github.com/Saimcode/font-size-changer.git
+    $ cd font-size-changer
+    
+#### 2. Start the development server
 
-### 📍 Using the application
-
-* Link to the application: [Font Size Changer](https://sharp-archimedes-e8a9c1.netlify.app/)
-* Or you can view the program from my portfolio: [My Portfolio](https://saimcode.github.io/myportfolio/)
+    $ npm start
 
 ## ❔ Help
 
