@@ -11,9 +11,7 @@ Font Size Changer is a simple web application that lets the user to change the f
     $ git clone https://github.com/Saimcode/font-size-changer.git
     $ cd font-size-changer
     
-#### 2. Start the development server
-
-    $ npm start
+#### 2. Start the live server.
 
 ## ❔ Help
 
